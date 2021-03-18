@@ -1,0 +1,50 @@
+.image {
+  width: 300px;
+  justify-content: center;
+}
+
+#imageCentre {
+  align-items: center;
+  position: relative;
+}
+
+#imageCentre :hover {
+  background: rgba(76, 175, 80, 0.3); /* Green background with 30% opacity */
+}
+#textCentre {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+
+#price,
+.text h3 {
+  text-align: center;
+}
+
+#price b {
+  padding-right: 0.5em;
+  font-size: 1.3em;
+}
+
+#heart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px 20px 0 0;
+  color: aliceblue;
+}
+
+#stars {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-top: 50%;
+  color: #ffce26;
+}
