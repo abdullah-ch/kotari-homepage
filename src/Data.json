@@ -1,0 +1,91 @@
+ [	{
+		"approved": "true",
+		"sellerType": "brand",
+		"price": "1985",
+		"sellerName": "Khaadi"
+	},
+	{
+		"approved": "false",
+		"sellerType": "brand",
+		"price": "2080",
+		"sellerName": "Khaadi"
+	},
+	{
+		"approved": "true",
+		"sellerType": "brand",
+		"price": "10000",
+		"sellerName": "Khaadi"
+	},
+	{
+		"approved": "true",
+		"sellerType": "brand",
+		"price": "1185",
+		"sellerName": "Bonanza"
+	},
+	{
+		"approved": "true",
+		"sellerType": "brand",
+		"price": "1080",
+		"sellerName": "Bonanza"
+	},
+	{
+		"approved": "true",
+		"sellerType": "brand",
+		"price": "5000",
+		"sellerName": "Bonanza"
+	},
+	{
+		"approved": "true",
+		"sellerType": "brand",
+		"price": "10000",
+		"sellerName": "Addidas"
+	},
+	{
+		"approved": "true",
+		"sellerType": "brand",
+		"price": "1185",
+		"sellerName": "Puma"
+	},
+	{
+		"approved": "true",
+		"sellerType": "brand",
+		"price": "1080",
+		"sellerName": "Apollo"
+	},
+	{
+		"approved": "true",
+		"sellerType": "brand",
+		"price": "10000",
+		"sellerName": "Nike"
+	},
+	{
+		"approved": "true",
+		"sellerType": "brand",
+		"price": "1185",
+		"sellerName": "Sana Safinaz"
+	},
+	{
+		"approved": "true",
+		"sellerType": "brand",
+		"price": "1080",
+		"sellerName": "Gul Ahmed"
+	},
+	{
+		"approved": "true",
+		"sellerType": "store",
+		"price": "500",
+		"sellerName": "Ahmed store"
+	},
+	{
+		"approved": "true",
+		"sellerType": "store",
+		"price": "5000",
+		"sellerName": "Ahmed store"
+	},
+	{
+		"approved": "false",
+		"sellerType": "store",
+		"price": "5000",
+		"sellerName": "Moazzam store"
+	}
+]
