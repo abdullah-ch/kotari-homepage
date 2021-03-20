@@ -1,16 +1,26 @@
 .image {
-  width: 300px;
   justify-content: center;
 }
 
+/* .image:hover {
+  opacity: 0.7;
+} */
+
 #imageCentre {
-  align-items: center;
+  align-items: center !important;
   position: relative;
+  margin: 5em 5em 0 5em;
 }
 
-#imageCentre :hover {
-  background: rgba(76, 175, 80, 0.3); /* Green background with 30% opacity */
+/* #imageCentre:hover {
+  opacity: 0.5;
+} */
+
+#imageCentre:hover .image {
+  color: rgba(0, 0, 0, 0.7);
+  /* opacity: 0.5; */
 }
+
 #textCentre {
   text-align: center;
 }
@@ -18,7 +28,6 @@
 .container {
   display: flex;
   justify-content: center;
-  padding: 2em;
 }
 
 #price,
@@ -46,5 +55,8 @@
   margin-right: -50%;
   transform: translate(-50%, -50%);
   margin-top: 50%;
-  color: #ffce26;
+}
+
+.bottomContent {
+  margin-bottom: 2.5em;
 }
