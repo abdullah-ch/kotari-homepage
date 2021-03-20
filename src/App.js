@@ -6,8 +6,10 @@ import Sidebar from "./Components/Simpleaccordion/Sidebar";
 function App() {
   return (
     <React.Fragment>
-      <Sidebar />
-      <CardsBox />
+    <div className="homepage">
+    <Sidebar />
+      <CardsBox  />
+    </div>
     </React.Fragment>
   );
 }

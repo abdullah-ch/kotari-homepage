@@ -75,6 +75,8 @@ function Sidebar(){
         <div className="sidenav">
         <SimpleAccordion children="Brands" arrayName={arrayBrand} loopCounter={4}/>
         <SimpleAccordion children="Store" arrayName={arrayStore} loopCounter={1}/>
+        <SimpleAccordion children="Brands" arrayName={arrayBrand} loopCounter={4}/>
+        <SimpleAccordion children="Store" arrayName={arrayStore} loopCounter={1}/>
         </div>
     );
 
