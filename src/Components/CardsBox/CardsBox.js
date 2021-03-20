@@ -6,10 +6,6 @@ const CardsBox = () => {
   return (
     <div id={styles.container}>
       <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
     </div>
   );
 };
