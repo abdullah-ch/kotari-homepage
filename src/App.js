@@ -9,8 +9,11 @@ function App() {
 
   return (
     <React.Fragment>
-      <CardsBox />
-     <Sidebar/>
+     <div className="homepage">
+     <Sidebar />
+      <CardsBox  />
+     </div>
+     
     </React.Fragment>
   );
 }

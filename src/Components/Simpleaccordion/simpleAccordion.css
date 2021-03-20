@@ -3,13 +3,9 @@
   padding: 0px;
 }
 .sidenav {
-    height: auto;
+    
     width: 200px;
-    z-index: 1;
-    top: 0;
-    left: 0;
     background-color:white;
-    overflow-x: hidden;
     border-radius: 20px;
     border: 1px solid gray;
     padding:20px 20px 20px 20px;
