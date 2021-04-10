@@ -1,4 +1,9 @@
+/* Have to make it responsive for tablets and phones */
+
 #container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  background-color: white;
+  column-gap: 0;
 }

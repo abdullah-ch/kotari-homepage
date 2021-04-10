@@ -10,6 +10,10 @@ const CardsBox = () => {
       <Cards />
       <Cards />
       <Cards />
+      <Cards />
+      <Cards />
+      <Cards />
+      <Cards />
     </div>
   );
 };
