@@ -7,7 +7,9 @@ function App() {
   return (
     <React.Fragment>
       <div className="homepage">
-        <Sidebar />
+        <div className="sideBar">
+          <Sidebar />
+        </div>
         <CardsBox />
       </div>
     </React.Fragment>
