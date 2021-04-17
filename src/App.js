@@ -16,7 +16,7 @@ function App() {
   return (
     <React.Fragment>
       <Grid container justify="center" spacing={10} direction="row">
-        <Grid className={classes.sideBar} item lg={3}>
+        <Grid item lg={3}>
           <Sidebar />
         </Grid>
 
