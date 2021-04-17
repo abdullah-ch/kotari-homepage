@@ -1,10 +1,6 @@
 import React from "react";
 import Cards from "../Cards/Cards";
-import { makeStyles, Grid } from "@material-ui/core";
-
-const styles = makeStyles((theme) => ({
-  root: {},
-}));
+import { Grid } from "@material-ui/core";
 
 const CardsBox = () => {
   return (
