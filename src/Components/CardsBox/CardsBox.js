@@ -1,10 +1,14 @@
 import React from "react";
 import Cards from "../Cards/Cards";
-import styles from "./CardsBox.module.css";
+import { makeStyles, Grid } from "@material-ui/core";
+
+const styles = makeStyles((theme) => ({
+  root: {},
+}));
 
 const CardsBox = () => {
   return (
-    <div id={styles.container}>
+    <Grid container justify="center" direction="row">
       <Cards />
       <Cards />
       <Cards />
@@ -14,7 +18,7 @@ const CardsBox = () => {
       <Cards />
       <Cards />
       <Cards />
-    </div>
+    </Grid>
   );
 };
 

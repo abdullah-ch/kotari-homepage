@@ -1,6 +1,6 @@
 import image from "../../Assets/pic.jpg";
 import React, { useState } from "react";
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles, Grid } from "@material-ui/core";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
@@ -13,6 +13,8 @@ import Stars from "../Stars/Stars";
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
+    width: "100%",
+    height: "100%",
   },
 });
 
@@ -33,7 +35,7 @@ const Cards = () => {
   console.log("The state showComponent value is ", showComponent);
 
   return (
-    <div className={styles.container}>
+    <Grid item lg={4}>
       <Card
         onMouseEnter={handleToggleHoverIn}
         onMouseLeave={handleToggleHoverOut}
@@ -78,7 +80,7 @@ const Cards = () => {
           </CardContent>
         </CardActionArea>
       </Card>
-    </div>
+    </Grid>
   );
 };
 
